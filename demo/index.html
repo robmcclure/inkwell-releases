@@ -1,0 +1,73 @@
+<!doctype html>
+<!--
+  The demo video page: https://robmcclure.github.io/inkwell-releases/demo/
+
+  Published with the video and its poster frame to the releases repository's
+  GitHub Pages site by script/publish-demo.sh (npm run release:demo). Edit it
+  here, never on GitHub. EVERYTHING IN THIS FOLDER BECOMES PUBLIC.
+
+  Why a page and not a link to the .mp4: the printed QR code (docs/demo-qr.png)
+  and the user guide both point here, and a phone given a bare video link may
+  download it rather than play it. A <video> element plays inline everywhere.
+  Why GitHub Pages and not YouTube: no third-party player, no tracking, and the
+  same host as the downloads, which the download page's privacy note covers.
+
+  The video has no sound track, so the page says so rather than leaving a viewer
+  to hunt for a volume control.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inkwell demo</title>
+<meta name="description" content="A 7-minute tour of Inkwell, a fountain pen collection tracker for your own computer.">
+<style>
+  :root {
+    --bg: #f6f4ef; --fg: #1c2230; --muted: #5d6472; --accent: #2b4a8b; --rule: #d9d5cc;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0b0f1a; --fg: #e8e6e1; --muted: #a3a8b3; --accent: #8fb0f0; --rule: #2a3040; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 17px/1.55 -apple-system, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  }
+  main { max-width: 1100px; margin: 0 auto; padding: 28px 16px 48px; }
+  h1 {
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    font-size: clamp(2.2rem, 6vw, 3.4rem); line-height: 1; margin: 0 0 6px;
+  }
+  .tagline {
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    font-style: italic; color: var(--muted); margin: 0 0 22px; font-size: 1.15rem;
+  }
+  video {
+    display: block; width: 100%; height: auto; aspect-ratio: 1624 / 1060;
+    background: #000; border-radius: 8px; border: 1px solid var(--rule);
+  }
+  .note { color: var(--muted); font-size: 0.92rem; margin: 10px 0 26px; }
+  a { color: var(--accent); }
+  .next { border-top: 1px solid var(--rule); padding-top: 18px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Inkwell</h1>
+  <p class="tagline">A fountain pen collection tracker for your own computer.</p>
+
+  <video controls playsinline preload="metadata" poster="poster.jpg">
+    <source src="inkwell-demo.mp4" type="video/mp4">
+    Your browser can't play this video. <a href="inkwell-demo.mp4">Download it (MP4)</a> instead.
+  </video>
+  <p class="note">A 7-minute tour, with no sound. On a phone, turn it sideways for a larger picture.</p>
+
+  <p class="next">
+    Want to try it? Inkwell is in testing for Mac (Apple silicon) and Windows 10 or 11.
+    <a href="https://github.com/robmcclure/inkwell-releases">Go to the download page</a> on the
+    computer you'll install it on.
+  </p>
+</main>
+</body>
+</html>
