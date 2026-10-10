@@ -13,6 +13,14 @@ phone, send yourself this address and open it there:
 
 Current version: **1.67.0**
 
+## See it first
+
+A 7-minute tour of Inkwell, with no sound. It plays in your browser or on your phone.
+
+[![Watch the Inkwell demo](demo/poster.jpg)](https://robmcclure.github.io/inkwell-releases/demo/)
+
+**[Watch the demo](https://robmcclure.github.io/inkwell-releases/demo/)**
+
 ## Mac
 
 [**Download for Mac**](https://github.com/robmcclure/inkwell-releases/releases/latest/download/Inkwell-mac-arm64.dmg)
