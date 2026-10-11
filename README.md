@@ -11,7 +11,7 @@ copy is for evaluation and gives no right to redistribute it.
 phone, send yourself this address and open it there:
 **github.com/robmcclure/inkwell-releases**
 
-Current version: **1.68.0**
+Current version: **1.68.1**
 
 ## See it first
 
@@ -50,8 +50,8 @@ To confirm a download is exactly the published file, compare its SHA-256 fingerp
 one below. On a Mac: `shasum -a 256 <file>` in Terminal. On Windows: `certutil -hashfile <file>
 SHA256` in Command Prompt.
 
-- Mac (`Inkwell-mac-arm64.dmg`, 1.68.0): `51fd79fc931ac6e450817e203fda4f3feaa99e6ebd2e5c92dc5fe4aa23ca6108`
-- Windows (`Inkwell-Setup-windows-x64.exe`, 1.68.0): `fc1b44a74b37128f7f23661d09892284c1dd93311f0f772bc8a5e0d7eb378840`
+- Mac (`Inkwell-mac-arm64.dmg`, 1.68.1): `899a9da677ade635ec0ad555e406dfd3c335a30a012fdfb15a23527f8d3d9e0a`
+- Windows (`Inkwell-Setup-windows-x64.exe`, 1.68.1): `b504f67d11e283581fcf1d06192cd6f9c3423a8cd3534785639b3d6a290acc2d`
 
 ## Privacy
 
