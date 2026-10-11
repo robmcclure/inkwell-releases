@@ -11,7 +11,7 @@ copy is for evaluation and gives no right to redistribute it.
 phone, send yourself this address and open it there:
 **github.com/robmcclure/inkwell-releases**
 
-Current version: **1.67.0**
+Current version: **1.68.0**
 
 ## See it first
 
@@ -50,14 +50,15 @@ To confirm a download is exactly the published file, compare its SHA-256 fingerp
 one below. On a Mac: `shasum -a 256 <file>` in Terminal. On Windows: `certutil -hashfile <file>
 SHA256` in Command Prompt.
 
-- Mac (`Inkwell-mac-arm64.dmg`, 1.67.0): `0ecebae52ae165d8cf4daa93fa031c3e936639445ec52dc27fbb6e0bc0de05ef`
-- Windows (`Inkwell-Setup-windows-x64.exe`, 1.67.0): `bb37a159360504f6690fa46d277cdeba7fea3370ec305b70f5010a59dd360eb5`
+- Mac (`Inkwell-mac-arm64.dmg`, 1.68.0): `51fd79fc931ac6e450817e203fda4f3feaa99e6ebd2e5c92dc5fe4aa23ca6108`
+- Windows (`Inkwell-Setup-windows-x64.exe`, 1.68.0): `fc1b44a74b37128f7f23661d09892284c1dd93311f0f772bc8a5e0d7eb378840`
 
 ## Privacy
 
 GitHub counts how many times each file is downloaded. That number is all Inkwell's author sees:
 no names, no IP addresses. The app itself sends nothing about you or your collection anywhere.
-It goes online for two things only: checking this page for updates, and, when you import an
-order, fetching the product photos that order links to from the retailer's site.
+It goes online for three things only: checking this page for updates; when you import an order,
+fetching the product photos that order links to from the retailer's site; and, when you click
+Update from ECB in Settings, downloading the European Central Bank's public exchange rates.
 
 [All versions and release notes](https://github.com/robmcclure/inkwell-releases/releases)
