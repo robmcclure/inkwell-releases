@@ -11,7 +11,7 @@ copy is for evaluation and gives no right to redistribute it.
 phone, send yourself this address and open it there:
 **github.com/robmcclure/inkwell-releases**
 
-Current version: **1.68.1**
+Current version: **1.69.0**
 
 ## See it first
 
@@ -50,15 +50,17 @@ To confirm a download is exactly the published file, compare its SHA-256 fingerp
 one below. On a Mac: `shasum -a 256 <file>` in Terminal. On Windows: `certutil -hashfile <file>
 SHA256` in Command Prompt.
 
-- Mac (`Inkwell-mac-arm64.dmg`, 1.68.1): `899a9da677ade635ec0ad555e406dfd3c335a30a012fdfb15a23527f8d3d9e0a`
-- Windows (`Inkwell-Setup-windows-x64.exe`, 1.68.1): `b504f67d11e283581fcf1d06192cd6f9c3423a8cd3534785639b3d6a290acc2d`
+- Mac (`Inkwell-mac-arm64.dmg`, 1.69.0): `d4610963df5244a004e9024e9cf1bb184147daaeda9a740e9570c7ad77b1d44c`
+- Windows (`Inkwell-Setup-windows-x64.exe`, 1.69.0): `a14f9b63ffcc2ace8c0e0c69415fd3a1268428c07cf50439b3f8c02be89e0c8d`
 
 ## Privacy
 
 GitHub counts how many times each file is downloaded. That number is all Inkwell's author sees:
-no names, no IP addresses. The app itself sends nothing about you or your collection anywhere.
-It goes online for three things only: checking this page for updates; when you import an order,
-fetching the product photos that order links to from the retailer's site; and, when you click
-Update from ECB in Settings, downloading the European Central Bank's public exchange rates.
+no names, no IP addresses. The app itself sends nothing about you anywhere, and nothing about
+your collection beyond what's described here. It goes online for four things only: checking this
+page for updates; when you import an order, fetching the product photos that order links to from
+the retailer's site; when you click Update from ECB in Settings, downloading the European Central
+Bank's public exchange rates; and, when you click Look up properties, searching Vanness Pens and
+Mountain of Ink for an ink, which sends them that ink's brand and colour and nothing else.
 
 [All versions and release notes](https://github.com/robmcclure/inkwell-releases/releases)
